@@ -53,3 +53,4 @@ dkms.conf
 
 # extra
 .DS_Store
+/main
