@@ -10,8 +10,15 @@
 
 #include <stdio.h>
 
-void executer(void (*fp)(void));
+struct FunctionInfo {
+    char *name;
+    void (*fp);
+};
 
-void selectFunction(void **fpa, int count);
+void execute(void (*fp)(void));
+
+void select_function(void **fpa, int count);
+
+void select_function_by_function_infos(struct FunctionInfo *fip, int count);
 
 #endif /* executer_h */

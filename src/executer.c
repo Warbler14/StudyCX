@@ -6,18 +6,20 @@
 //
 #include "executer.h"
 
-void executer(void (*fp)(void)){
+const char *END_MESSAGE = "- end of line -";
+
+void execute(void (*fp)(void)){
     fp();
 }
 
-void selectFunction(void **fpa, int count){
+void select_function(void **fpa, int count){
     /*
-    for(int i = 0 ; i < count; i++ ) {
+     for(int i = 0 ; i < count; i++ ) {
         if(fpa[i] != NULL) {
             printf("%s\n", fpa[i]);
         }
-    }
-    */
+     }
+     */
     
     int functionNumber;
     void (*fp) = NULL;
@@ -32,6 +34,37 @@ void selectFunction(void **fpa, int count){
     }
     
     if(fp != NULL) {
-        executer(fp);
+        execute(fp);
     }
+    
+    printf("%s\n", END_MESSAGE);
+}
+
+void select_function_by_function_infos(struct FunctionInfo *fip, int count) {
+    
+    printf("------- functions ------\n");
+    for(int idx = 0; idx < count ; idx++) {
+        struct FunctionInfo functionInfo = fip[idx];
+        printf("%s : %d\n", functionInfo.name, idx);
+    }
+    printf("-------------------------\n");
+    
+    int functionNumber;
+    void (*fp) = NULL;
+    
+    printf("input function number 0~%d: ", count-1);
+    scanf("%d", &functionNumber);
+    
+    if(functionNumber < count) {
+        struct FunctionInfo functionInfo = fip[functionNumber];
+        fp = functionInfo.fp;
+    } else {
+        printf("funciton not found\n");
+    }
+    
+    if(fp != NULL) {
+        execute(fp);
+    }
+    
+    printf("%s\n", END_MESSAGE);
 }

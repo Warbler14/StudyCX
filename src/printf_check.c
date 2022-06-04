@@ -2,12 +2,15 @@
 
 #define PI 3.14
 
-void printCheckout(void) {
+void print_checkout(void) {
     
     printf("To C, or not to C: that is the question.\n");
 
     printf("%%c를 사용한 결과 : %c\n", 'a');            // 문자
     printf("%%s를 사용한 결과 : %s\n", "즐거운 C언어");    // 문자열
+    
+    char *string = "string test";
+    printf("%%s를 사용한 결과 : %s\n", string);         // 포인터
      
     printf("%%f를 사용한 결과 : %f\n", PI);
     printf("%%f를 사용한 결과 : %f\n", 0.123456789);    // 소수점 6자리까지만 표현

@@ -10,8 +10,9 @@
 		F60A5B5828390AA9006DB4F9 /* print_characters.c in Sources */ = {isa = PBXBuildFile; fileRef = F60A5B5728390AA9006DB4F9 /* print_characters.c */; };
 		F60A5B5B283929A6006DB4F9 /* area_struct.c in Sources */ = {isa = PBXBuildFile; fileRef = F60A5B5A283929A6006DB4F9 /* area_struct.c */; };
 		F674B2EB2837D00A001AB17F /* executer.c in Sources */ = {isa = PBXBuildFile; fileRef = F674B2EA2837D00A001AB17F /* executer.c */; };
-		F674B2EE2837E03C001AB17F /* test.c in Sources */ = {isa = PBXBuildFile; fileRef = F674B2ED2837E03B001AB17F /* test.c */; };
 		F6799E29277C412700BEB3E5 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = F6799E28277C412700BEB3E5 /* main.c */; };
+		F69EF85F28433FB20078F95A /* struct_example.c in Sources */ = {isa = PBXBuildFile; fileRef = F69EF85E28433FB20078F95A /* struct_example.c */; };
+		F69EF862284369B80078F95A /* local_function_value.c in Sources */ = {isa = PBXBuildFile; fileRef = F69EF861284369B80078F95A /* local_function_value.c */; };
 		F6BDBDAE277FE9B500213A8D /* printf_check.c in Sources */ = {isa = PBXBuildFile; fileRef = F6BDBDAD277FE9B500213A8D /* printf_check.c */; };
 /* End PBXBuildFile section */
 
@@ -34,10 +35,12 @@
 		F60A5B5A283929A6006DB4F9 /* area_struct.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = area_struct.c; sourceTree = "<group>"; };
 		F674B2E92837CFB8001AB17F /* executer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = executer.h; sourceTree = "<group>"; };
 		F674B2EA2837D00A001AB17F /* executer.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = executer.c; sourceTree = "<group>"; };
-		F674B2EC2837E01A001AB17F /* test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = test.h; sourceTree = "<group>"; };
-		F674B2ED2837E03B001AB17F /* test.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = test.c; sourceTree = "<group>"; };
 		F6799E25277C412700BEB3E5 /* StudyCX */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = StudyCX; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6799E28277C412700BEB3E5 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		F69EF85D28433F910078F95A /* struct_example.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = struct_example.h; sourceTree = "<group>"; };
+		F69EF85E28433FB20078F95A /* struct_example.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = struct_example.c; sourceTree = "<group>"; };
+		F69EF8602843696C0078F95A /* local_function_value.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = local_function_value.h; sourceTree = "<group>"; };
+		F69EF861284369B80078F95A /* local_function_value.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = local_function_value.c; sourceTree = "<group>"; };
 		F6BDBDAC277FE9B500213A8D /* printf_check.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = printf_check.h; sourceTree = "<group>"; };
 		F6BDBDAD277FE9B500213A8D /* printf_check.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = printf_check.c; sourceTree = "<group>"; };
 		F6BDBDAF2780267200213A8D /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
@@ -84,8 +87,10 @@
 				F6BDBDAD277FE9B500213A8D /* printf_check.c */,
 				F60A5B5628390A66006DB4F9 /* print_characters.h */,
 				F60A5B5728390AA9006DB4F9 /* print_characters.c */,
-				F674B2EC2837E01A001AB17F /* test.h */,
-				F674B2ED2837E03B001AB17F /* test.c */,
+				F69EF85D28433F910078F95A /* struct_example.h */,
+				F69EF85E28433FB20078F95A /* struct_example.c */,
+				F69EF8602843696C0078F95A /* local_function_value.h */,
+				F69EF861284369B80078F95A /* local_function_value.c */,
 			);
 			path = src;
 			sourceTree = "<group>";
@@ -156,10 +161,11 @@
 			files = (
 				F6799E29277C412700BEB3E5 /* main.c in Sources */,
 				F6BDBDAE277FE9B500213A8D /* printf_check.c in Sources */,
+				F69EF85F28433FB20078F95A /* struct_example.c in Sources */,
 				F60A5B5828390AA9006DB4F9 /* print_characters.c in Sources */,
 				F60A5B5B283929A6006DB4F9 /* area_struct.c in Sources */,
 				F674B2EB2837D00A001AB17F /* executer.c in Sources */,
-				F674B2EE2837E03C001AB17F /* test.c in Sources */,
+				F69EF862284369B80078F95A /* local_function_value.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

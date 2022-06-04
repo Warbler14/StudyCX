@@ -7,7 +7,7 @@
 
 #include "area_struct.h"
 
-void rectangleAreaCalculation(void){
+void rectangle_area_calculation(void){
     
     long area;
     

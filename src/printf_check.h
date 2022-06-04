@@ -3,6 +3,6 @@
 
 #include <stdio.h>
 
-void printCheckout(void);
+void print_checkout(void);
 
 #endif /* printf_check_h */

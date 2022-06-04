@@ -1,23 +1,26 @@
 //  Created by kook on 2021/12/29.
 
+#include "struct_example.h"
 #include "executer.h"
 #include "area_struct.h"
 #include "printf_check.h"
 #include "print_characters.h"
-#include "test.h"
+#include "local_function_value.h"
 
 int main(int argc, const char * argv[]) {
+    const int FUNCTION_COUNT = 7;
     
-    const int FUNCTION_COUNT = 4;
-    void *fpa[FUNCTION_COUNT] = {};
+    struct FunctionInfo functionInfoHolder[FUNCTION_COUNT] = {
+        {"simple print test", test},
+        {"print checkout", print_checkout},
+        {"simple struct print test", struct_test},
+        {"print caracters", print_caracters},
+        {"rectangle area calculation", rectangle_area_calculation},
+        {"static function test", local_function_start},
+        {"test register variable", register_variable_time_check},
+    };
     
-    fpa[0] = test;
-    fpa[1] = printCheckout;
-    fpa[2] = printCaracters;
-    fpa[3] = rectangleAreaCalculation;
-    
-    //executer(fpa[0]);
-    selectFunction(fpa, 4);
+    select_function_by_function_infos(functionInfoHolder, FUNCTION_COUNT);
     
     return 0;
 }

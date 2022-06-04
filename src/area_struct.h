@@ -10,6 +10,6 @@
 
 #include <stdio.h>
 
-void rectangleAreaCalculation(void);
+void rectangle_area_calculation(void);
 
 #endif /* area_struct_h */

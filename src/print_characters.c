@@ -6,7 +6,7 @@
 //
 #include "print_characters.h"
 
-void printCaracters(void){
+void print_caracters(void){
     
     const unsigned char START_CHARACTER = 33;
     const unsigned char END_CHARACTER = 95;

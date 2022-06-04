@@ -11,6 +11,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void printCaracters(void);
+void print_caracters(void);
 
 #endif /* print_characters_h */
