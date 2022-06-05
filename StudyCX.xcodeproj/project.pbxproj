@@ -9,10 +9,13 @@
 /* Begin PBXBuildFile section */
 		F60A5B5828390AA9006DB4F9 /* print_characters.c in Sources */ = {isa = PBXBuildFile; fileRef = F60A5B5728390AA9006DB4F9 /* print_characters.c */; };
 		F60A5B5B283929A6006DB4F9 /* area_struct.c in Sources */ = {isa = PBXBuildFile; fileRef = F60A5B5A283929A6006DB4F9 /* area_struct.c */; };
+		F65FD99F284BB07E008D597F /* pointer_check.c in Sources */ = {isa = PBXBuildFile; fileRef = F65FD99E284BB07E008D597F /* pointer_check.c */; };
 		F674B2EB2837D00A001AB17F /* executer.c in Sources */ = {isa = PBXBuildFile; fileRef = F674B2EA2837D00A001AB17F /* executer.c */; };
 		F6799E29277C412700BEB3E5 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = F6799E28277C412700BEB3E5 /* main.c */; };
+		F68D9E8A284C53FB00C9E2AB /* array_pointer_check.c in Sources */ = {isa = PBXBuildFile; fileRef = F68D9E89284C53FB00C9E2AB /* array_pointer_check.c */; };
 		F69EF85F28433FB20078F95A /* struct_example.c in Sources */ = {isa = PBXBuildFile; fileRef = F69EF85E28433FB20078F95A /* struct_example.c */; };
 		F69EF862284369B80078F95A /* local_function_value.c in Sources */ = {isa = PBXBuildFile; fileRef = F69EF861284369B80078F95A /* local_function_value.c */; };
+		F6B45AC2284CE6F700BED2F8 /* linked_list_check.c in Sources */ = {isa = PBXBuildFile; fileRef = F6B45AC1284CE6F700BED2F8 /* linked_list_check.c */; };
 		F6BDBDAE277FE9B500213A8D /* printf_check.c in Sources */ = {isa = PBXBuildFile; fileRef = F6BDBDAD277FE9B500213A8D /* printf_check.c */; };
 /* End PBXBuildFile section */
 
@@ -33,14 +36,20 @@
 		F60A5B5728390AA9006DB4F9 /* print_characters.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = print_characters.c; sourceTree = "<group>"; };
 		F60A5B5928392984006DB4F9 /* area_struct.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = area_struct.h; sourceTree = "<group>"; };
 		F60A5B5A283929A6006DB4F9 /* area_struct.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = area_struct.c; sourceTree = "<group>"; };
+		F65FD99D284BB067008D597F /* pointer_check.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pointer_check.h; sourceTree = "<group>"; };
+		F65FD99E284BB07E008D597F /* pointer_check.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = pointer_check.c; sourceTree = "<group>"; };
 		F674B2E92837CFB8001AB17F /* executer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = executer.h; sourceTree = "<group>"; };
 		F674B2EA2837D00A001AB17F /* executer.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = executer.c; sourceTree = "<group>"; };
 		F6799E25277C412700BEB3E5 /* StudyCX */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = StudyCX; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6799E28277C412700BEB3E5 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		F68D9E88284C53B200C9E2AB /* array_pointer_check.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = array_pointer_check.h; sourceTree = "<group>"; };
+		F68D9E89284C53FB00C9E2AB /* array_pointer_check.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = array_pointer_check.c; sourceTree = "<group>"; };
 		F69EF85D28433F910078F95A /* struct_example.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = struct_example.h; sourceTree = "<group>"; };
 		F69EF85E28433FB20078F95A /* struct_example.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = struct_example.c; sourceTree = "<group>"; };
 		F69EF8602843696C0078F95A /* local_function_value.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = local_function_value.h; sourceTree = "<group>"; };
 		F69EF861284369B80078F95A /* local_function_value.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = local_function_value.c; sourceTree = "<group>"; };
+		F6B45AC0284CE6E700BED2F8 /* linked_list_check.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = linked_list_check.h; sourceTree = "<group>"; };
+		F6B45AC1284CE6F700BED2F8 /* linked_list_check.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = linked_list_check.c; sourceTree = "<group>"; };
 		F6BDBDAC277FE9B500213A8D /* printf_check.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = printf_check.h; sourceTree = "<group>"; };
 		F6BDBDAD277FE9B500213A8D /* printf_check.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = printf_check.c; sourceTree = "<group>"; };
 		F6BDBDAF2780267200213A8D /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
@@ -57,9 +66,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F65FD99C284BAB80008D597F /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "New Group";
+			sourceTree = "<group>";
+		};
 		F6799E1C277C412700BEB3E5 = {
 			isa = PBXGroup;
 			children = (
+				F65FD99C284BAB80008D597F /* New Group */,
 				F6BDBDB22780333400213A8D /* obj */,
 				F6BDBDAF2780267200213A8D /* Makefile */,
 				F6799E27277C412700BEB3E5 /* src */,
@@ -91,6 +108,12 @@
 				F69EF85E28433FB20078F95A /* struct_example.c */,
 				F69EF8602843696C0078F95A /* local_function_value.h */,
 				F69EF861284369B80078F95A /* local_function_value.c */,
+				F65FD99D284BB067008D597F /* pointer_check.h */,
+				F65FD99E284BB07E008D597F /* pointer_check.c */,
+				F68D9E88284C53B200C9E2AB /* array_pointer_check.h */,
+				F68D9E89284C53FB00C9E2AB /* array_pointer_check.c */,
+				F6B45AC0284CE6E700BED2F8 /* linked_list_check.h */,
+				F6B45AC1284CE6F700BED2F8 /* linked_list_check.c */,
 			);
 			path = src;
 			sourceTree = "<group>";
@@ -162,9 +185,12 @@
 				F6799E29277C412700BEB3E5 /* main.c in Sources */,
 				F6BDBDAE277FE9B500213A8D /* printf_check.c in Sources */,
 				F69EF85F28433FB20078F95A /* struct_example.c in Sources */,
+				F68D9E8A284C53FB00C9E2AB /* array_pointer_check.c in Sources */,
 				F60A5B5828390AA9006DB4F9 /* print_characters.c in Sources */,
 				F60A5B5B283929A6006DB4F9 /* area_struct.c in Sources */,
 				F674B2EB2837D00A001AB17F /* executer.c in Sources */,
+				F6B45AC2284CE6F700BED2F8 /* linked_list_check.c in Sources */,
+				F65FD99F284BB07E008D597F /* pointer_check.c in Sources */,
 				F69EF862284369B80078F95A /* local_function_value.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

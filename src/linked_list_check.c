@@ -24,6 +24,11 @@ void linked_list_check(void) {
 
 MODULE_LINK new_module(char *name, char *description, void *fp) {
     MODULE_LINK module = (MODULE_LINK)malloc(sizeof(MODULE));
+    if(module == NULL) {
+        printf("allocate fail");
+        return NULL;
+    }
+    
     module->name = name;
     module->description = description;
     module->fp = fp;
