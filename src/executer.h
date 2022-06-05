@@ -12,7 +12,7 @@
 
 struct FunctionInfo {
     char *name;
-    void (*fp);
+    void *fp;
 };
 
 void execute(void (*fp)(void));

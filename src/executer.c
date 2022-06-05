@@ -13,13 +13,6 @@ void execute(void (*fp)(void)){
 }
 
 void select_function(void **fpa, int count){
-    /*
-     for(int i = 0 ; i < count; i++ ) {
-        if(fpa[i] != NULL) {
-            printf("%s\n", fpa[i]);
-        }
-     }
-     */
     
     int functionNumber;
     void (*fp) = NULL;
