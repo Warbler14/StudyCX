@@ -16,8 +16,6 @@ struct StructInfo {
     char str[10];
 };
 
-void test(void);
-
 void struct_test(void);
 
 void print_struct(struct StructInfo structInfo);

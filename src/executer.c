@@ -38,11 +38,11 @@ void select_function_by_function_infos(struct FunctionInfo *fip, int count) {
     printf("------- functions ------\n");
     for(int idx = 0; idx < count ; idx++) {
         struct FunctionInfo functionInfo = fip[idx];
-        printf("%s : %d\n", functionInfo.name, idx);
+        printf("%3d - %s\n", idx, functionInfo.name);
     }
     printf("-------------------------\n");
     
-    int functionNumber;
+    int functionNumber = count - 1;
     void (*fp) = NULL;
     
     printf("input function number 0~%d: ", count-1);

@@ -7,10 +7,6 @@
 
 #include "struct_example.h"
 
-void test(void) {
-    printf("it's working\n");
-}
-
 void struct_test(void) {
     struct StructInfo d1 = {
         100, "defaultName", "0123456789"

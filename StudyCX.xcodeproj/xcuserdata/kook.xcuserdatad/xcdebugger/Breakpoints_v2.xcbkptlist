@@ -20,5 +20,22 @@
             landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "63D894E0-819E-4426-8886-FFA7CC28E3FB"
+            shouldBeEnabled = "No"
+            condition = "offset == 2"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "src/snail_array_print.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "104"
+            endingLineNumber = "104"
+            landmarkName = "fill_array(colSize, rowSize, array, number, offset)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>

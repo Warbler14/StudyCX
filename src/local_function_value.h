@@ -16,4 +16,5 @@ void local_function_start(void);
 void execute_static_function(void);
 
 void register_variable_time_check(void);
+
 #endif /* local_function_value_h */

@@ -10,6 +10,9 @@
 void pointer_checkout(void){
     srand((unsigned int)time(NULL));
     
+    char message[50] = "Hello World!";
+    printf("%s\n", message);
+    
     char *months[MONTH_LENGTH] = {
         "january", "february", "march", "april", "may", "june",
         "july", "august", "september", "october", "november", "december"
@@ -30,6 +33,15 @@ void pointer_checkout(void){
     printf("distance %2ld\n", ptr2 - ptr1);
     
     print_strings(months, MONTH_LENGTH);
+    
+    printVoidPointerValue();
+}
+
+int get_random_month_number(){
+    int number = (int)(rand() % MONTH_LENGTH);
+    printf("random_month_number : %d\n", number);
+    
+    return number;
 }
 
 void print_strings(char *p[], int count){
@@ -39,9 +51,12 @@ void print_strings(char *p[], int count){
     }
 }
 
-int get_random_month_number(void){
-    int number = (int)(rand() % MONTH_LENGTH);
-    printf("random_month_number : %d\n", number);
+void printVoidPointerValue(void) {
+    printf("printVoidPointerValue start\n");
+    int n = 10;
+    printf("before %d\n", n);
+    void *vp = &n;
+    *((int*)vp) = 20;
+    printf("after %d\n", n);
     
-    return number;
 }
