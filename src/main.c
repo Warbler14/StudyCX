@@ -14,10 +14,13 @@
 #include "function_check.h"
 #include "sort_and_search.h"
 #include "snail_array_print.h"
+#include "io_check.h"
+#include "enum_check.h"
+#include "macro_check.h"
 
 int main(int argc, const char * argv[]) {
     
-    const int FUNCTION_COUNT = 16;
+    const int FUNCTION_COUNT = 19;
     
     struct FunctionInfo functionInfoHolder[FUNCTION_COUNT] = {
         {"simple print test", test},
@@ -35,7 +38,10 @@ int main(int argc, const char * argv[]) {
         {"string copy", string_check},
         {"function test", function_check},
         {"input data sort and search", sort_and_search},
-        {"snail array print", snail_array_print}
+        {"snail array print", snail_array_print},
+        {"io test", io_check},
+        {"enum test", enum_check},
+        {"macro test", macro_check}
     };
     
     select_function_by_function_infos(functionInfoHolder, FUNCTION_COUNT);

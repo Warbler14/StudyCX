@@ -17,6 +17,7 @@ void snail_array_print(void) {
     snail_array_print_by_size(10, 5);
     printf("\n");
     snail_array_print_by_size(5, 10);
+    
 }
 
 void snail_array_print_by_size(int height, int width) {
@@ -100,7 +101,7 @@ void fill_array(int colSize, int rowSize, int **array, int number, int offset) {
     int halfColSize = colSize / 2;
     int halfRowSize = rowSize / 2;
     
-    if (halfColSize - offset >= 0 || halfRowSize - offset >= 0) {
+    if (halfColSize - offset > 0 || halfRowSize - offset > 0) {
         int nextColSize = colSize - 2;
         int nextRowSize = rowSize - 2;
 

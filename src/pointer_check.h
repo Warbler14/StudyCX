@@ -21,6 +21,6 @@ int get_random_month_number(void);
 
 void print_strings(char *p[], int count);
 
-void printVoidPointerValue();
+void printVoidPointerValue(void);
 
 #endif /* pointer_check_h */

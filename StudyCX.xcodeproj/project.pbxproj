@@ -12,6 +12,7 @@
 		F65FD99F284BB07E008D597F /* pointer_check.c in Sources */ = {isa = PBXBuildFile; fileRef = F65FD99E284BB07E008D597F /* pointer_check.c */; };
 		F674B2EB2837D00A001AB17F /* executer.c in Sources */ = {isa = PBXBuildFile; fileRef = F674B2EA2837D00A001AB17F /* executer.c */; };
 		F6799E29277C412700BEB3E5 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = F6799E28277C412700BEB3E5 /* main.c */; };
+		F67C6ECA28A9D9BA0036783B /* macro_check.c in Sources */ = {isa = PBXBuildFile; fileRef = F67C6EC928A9D9BA0036783B /* macro_check.c */; };
 		F68D9E8A284C53FB00C9E2AB /* array_pointer_check.c in Sources */ = {isa = PBXBuildFile; fileRef = F68D9E89284C53FB00C9E2AB /* array_pointer_check.c */; };
 		F690692B28782879006C25CA /* string_check.c in Sources */ = {isa = PBXBuildFile; fileRef = F690692A28782879006C25CA /* string_check.c */; };
 		F69EF85F28433FB20078F95A /* struct_example.c in Sources */ = {isa = PBXBuildFile; fileRef = F69EF85E28433FB20078F95A /* struct_example.c */; };
@@ -21,6 +22,8 @@
 		F6DAD29A288BA518006A967C /* function_check.c in Sources */ = {isa = PBXBuildFile; fileRef = F6DAD299288BA518006A967C /* function_check.c */; };
 		F6DAD29E288BD332006A967C /* sort_and_search.c in Sources */ = {isa = PBXBuildFile; fileRef = F6DAD29D288BD332006A967C /* sort_and_search.c */; };
 		F6E67AF528A8979E00D8115F /* snail_array_print.c in Sources */ = {isa = PBXBuildFile; fileRef = F6E67AF428A8979E00D8115F /* snail_array_print.c */; };
+		F6E67AF828A8F2A300D8115F /* io_check.c in Sources */ = {isa = PBXBuildFile; fileRef = F6E67AF728A8F2A300D8115F /* io_check.c */; };
+		F6E67AFB28A93DA200D8115F /* enum_check.c in Sources */ = {isa = PBXBuildFile; fileRef = F6E67AFA28A93DA200D8115F /* enum_check.c */; };
 		F6FFBE76284DF9ED008C58EE /* file_check.c in Sources */ = {isa = PBXBuildFile; fileRef = F6FFBE75284DF9ED008C58EE /* file_check.c */; };
 /* End PBXBuildFile section */
 
@@ -47,6 +50,8 @@
 		F674B2EA2837D00A001AB17F /* executer.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = executer.c; sourceTree = "<group>"; };
 		F6799E25277C412700BEB3E5 /* StudyCX */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = StudyCX; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6799E28277C412700BEB3E5 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		F67C6EC828A9D9BA0036783B /* macro_check.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = macro_check.h; sourceTree = "<group>"; };
+		F67C6EC928A9D9BA0036783B /* macro_check.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = macro_check.c; sourceTree = "<group>"; };
 		F68D9E88284C53B200C9E2AB /* array_pointer_check.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = array_pointer_check.h; sourceTree = "<group>"; };
 		F68D9E89284C53FB00C9E2AB /* array_pointer_check.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = array_pointer_check.c; sourceTree = "<group>"; };
 		F690692928782858006C25CA /* string_check.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = string_check.h; sourceTree = "<group>"; };
@@ -68,6 +73,10 @@
 		F6DAD29D288BD332006A967C /* sort_and_search.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = sort_and_search.c; sourceTree = "<group>"; };
 		F6E67AF328A8978A00D8115F /* snail_array_print.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = snail_array_print.h; sourceTree = "<group>"; };
 		F6E67AF428A8979E00D8115F /* snail_array_print.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = snail_array_print.c; sourceTree = "<group>"; };
+		F6E67AF628A8F29000D8115F /* io_check.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = io_check.h; sourceTree = "<group>"; };
+		F6E67AF728A8F2A300D8115F /* io_check.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = io_check.c; sourceTree = "<group>"; };
+		F6E67AF928A93D9200D8115F /* enum_check.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = enum_check.h; sourceTree = "<group>"; };
+		F6E67AFA28A93DA200D8115F /* enum_check.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = enum_check.c; sourceTree = "<group>"; };
 		F6FFBE74284DF9A4008C58EE /* file_check.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = file_check.h; sourceTree = "<group>"; };
 		F6FFBE75284DF9ED008C58EE /* file_check.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = file_check.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -135,6 +144,12 @@
 				F6DAD29D288BD332006A967C /* sort_and_search.c */,
 				F6E67AF328A8978A00D8115F /* snail_array_print.h */,
 				F6E67AF428A8979E00D8115F /* snail_array_print.c */,
+				F6E67AF628A8F29000D8115F /* io_check.h */,
+				F6E67AF728A8F2A300D8115F /* io_check.c */,
+				F6E67AF928A93D9200D8115F /* enum_check.h */,
+				F6E67AFA28A93DA200D8115F /* enum_check.c */,
+				F67C6EC828A9D9BA0036783B /* macro_check.h */,
+				F67C6EC928A9D9BA0036783B /* macro_check.c */,
 			);
 			path = src;
 			sourceTree = "<group>";
@@ -203,6 +218,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6E67AF828A8F2A300D8115F /* io_check.c in Sources */,
+				F6E67AFB28A93DA200D8115F /* enum_check.c in Sources */,
 				F6799E29277C412700BEB3E5 /* main.c in Sources */,
 				F6BDBDAE277FE9B500213A8D /* printf_check.c in Sources */,
 				F6E67AF528A8979E00D8115F /* snail_array_print.c in Sources */,
@@ -212,6 +229,7 @@
 				F6DAD29E288BD332006A967C /* sort_and_search.c in Sources */,
 				F60A5B5828390AA9006DB4F9 /* print_characters.c in Sources */,
 				F60A5B5B283929A6006DB4F9 /* area_struct.c in Sources */,
+				F67C6ECA28A9D9BA0036783B /* macro_check.c in Sources */,
 				F674B2EB2837D00A001AB17F /* executer.c in Sources */,
 				F6B45AC2284CE6F700BED2F8 /* linked_list_check.c in Sources */,
 				F6FFBE76284DF9ED008C58EE /* file_check.c in Sources */,

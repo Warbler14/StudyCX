@@ -8,5 +8,9 @@
 #ifndef io_check_h
 #define io_check_h
 
+#include <stdio.h>
+#include <string.h>
+
+void io_check(void);
 
 #endif /* io_check_h */

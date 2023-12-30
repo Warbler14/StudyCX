@@ -16,7 +16,20 @@ struct StructInfo {
     char str[10];
 };
 
+struct Person {
+    char name[20];
+    char pId[20];
+    struct Person* frnd;
+};
+
+typedef struct IntData {
+    int data1;
+    int data2;
+} Data;
+
 void struct_test(void);
+
+struct StructInfo getSampleStructInfo(void);
 
 void print_struct(struct StructInfo structInfo);
 

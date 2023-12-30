@@ -47,6 +47,7 @@ void select_function_by_function_infos(struct FunctionInfo *fip, int count) {
     
     printf("input function number 0~%d: ", count-1);
     scanf("%d", &functionNumber);
+    fflush(stdin);
     
     if(functionNumber < count) {
         struct FunctionInfo functionInfo = fip[functionNumber];

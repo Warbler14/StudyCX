@@ -10,4 +10,6 @@
 
 #include <stdio.h>
 
+void macro_check(void);
+
 #endif /* macro_check_h */

@@ -34,4 +34,7 @@ void print_checkout(void) {
     printf("%%G를 사용한 결과 : %G\n", 0.000001234);    // 값에 따라 %f나 %E
     
     printf("반지름이 1인 원의 넓이 : %f\n", PI * 1.0 * 1.0);
+    
+    int secretNumber = 1728;
+    printf("%d %d %d\n", secretNumber / 2, secretNumber / 3, secretNumber / 4);
 }
