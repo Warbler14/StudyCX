@@ -10,4 +10,6 @@
 
 #include <stdio.h>
 
+void test_list(void);
+
 #endif /* test_list_h */

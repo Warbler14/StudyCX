@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		F60A5B5828390AA9006DB4F9 /* print_characters.c in Sources */ = {isa = PBXBuildFile; fileRef = F60A5B5728390AA9006DB4F9 /* print_characters.c */; };
 		F60A5B5B283929A6006DB4F9 /* area_struct.c in Sources */ = {isa = PBXBuildFile; fileRef = F60A5B5A283929A6006DB4F9 /* area_struct.c */; };
+		F649F1872B45CA720003F6B2 /* test_execute.c in Sources */ = {isa = PBXBuildFile; fileRef = F649F1862B45CA720003F6B2 /* test_execute.c */; };
+		F649F18A2B45CB350003F6B2 /* test_list.c in Sources */ = {isa = PBXBuildFile; fileRef = F649F1892B45CB350003F6B2 /* test_list.c */; };
 		F65FD99F284BB07E008D597F /* pointer_check.c in Sources */ = {isa = PBXBuildFile; fileRef = F65FD99E284BB07E008D597F /* pointer_check.c */; };
 		F674B2EB2837D00A001AB17F /* executer.c in Sources */ = {isa = PBXBuildFile; fileRef = F674B2EA2837D00A001AB17F /* executer.c */; };
 		F6799E29277C412700BEB3E5 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = F6799E28277C412700BEB3E5 /* main.c */; };
@@ -44,6 +46,10 @@
 		F60A5B5728390AA9006DB4F9 /* print_characters.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = print_characters.c; sourceTree = "<group>"; };
 		F60A5B5928392984006DB4F9 /* area_struct.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = area_struct.h; sourceTree = "<group>"; };
 		F60A5B5A283929A6006DB4F9 /* area_struct.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = area_struct.c; sourceTree = "<group>"; };
+		F649F1852B45CA720003F6B2 /* test_execute.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = test_execute.h; sourceTree = "<group>"; };
+		F649F1862B45CA720003F6B2 /* test_execute.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = test_execute.c; sourceTree = "<group>"; };
+		F649F1882B45CB350003F6B2 /* test_list.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = test_list.h; sourceTree = "<group>"; };
+		F649F1892B45CB350003F6B2 /* test_list.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = test_list.c; sourceTree = "<group>"; };
 		F65FD99D284BB067008D597F /* pointer_check.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pointer_check.h; sourceTree = "<group>"; };
 		F65FD99E284BB07E008D597F /* pointer_check.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = pointer_check.c; sourceTree = "<group>"; };
 		F674B2E92837CFB8001AB17F /* executer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = executer.h; sourceTree = "<group>"; };
@@ -65,10 +71,8 @@
 		F6BDBDAC277FE9B500213A8D /* printf_check.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = printf_check.h; sourceTree = "<group>"; };
 		F6BDBDAD277FE9B500213A8D /* printf_check.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = printf_check.c; sourceTree = "<group>"; };
 		F6BDBDAF2780267200213A8D /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
-		F6DAD296288BA4C6006A967C /* function_check.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = function_check.h; sourceTree = "<group>"; };
 		F6DAD297288BA4FC006A967C /* function_check.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = function_check.h; sourceTree = "<group>"; };
 		F6DAD299288BA518006A967C /* function_check.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = function_check.c; sourceTree = "<group>"; };
-		F6DAD29B288BD2A4006A967C /* sort_and_search.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sort_and_search.h; sourceTree = "<group>"; };
 		F6DAD29C288BD332006A967C /* sort_and_search.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sort_and_search.h; sourceTree = "<group>"; };
 		F6DAD29D288BD332006A967C /* sort_and_search.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = sort_and_search.c; sourceTree = "<group>"; };
 		F6E67AF328A8978A00D8115F /* snail_array_print.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = snail_array_print.h; sourceTree = "<group>"; };
@@ -95,8 +99,6 @@
 		F6799E1C277C412700BEB3E5 = {
 			isa = PBXGroup;
 			children = (
-				F6DAD29B288BD2A4006A967C /* sort_and_search.h */,
-				F6DAD296288BA4C6006A967C /* function_check.h */,
 				F6BDBDB22780333400213A8D /* obj */,
 				F6BDBDAF2780267200213A8D /* Makefile */,
 				F6799E27277C412700BEB3E5 /* src */,
@@ -150,6 +152,10 @@
 				F6E67AFA28A93DA200D8115F /* enum_check.c */,
 				F67C6EC828A9D9BA0036783B /* macro_check.h */,
 				F67C6EC928A9D9BA0036783B /* macro_check.c */,
+				F649F1852B45CA720003F6B2 /* test_execute.h */,
+				F649F1862B45CA720003F6B2 /* test_execute.c */,
+				F649F1882B45CB350003F6B2 /* test_list.h */,
+				F649F1892B45CB350003F6B2 /* test_list.c */,
 			);
 			path = src;
 			sourceTree = "<group>";
@@ -219,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F6E67AF828A8F2A300D8115F /* io_check.c in Sources */,
+				F649F1872B45CA720003F6B2 /* test_execute.c in Sources */,
 				F6E67AFB28A93DA200D8115F /* enum_check.c in Sources */,
 				F6799E29277C412700BEB3E5 /* main.c in Sources */,
 				F6BDBDAE277FE9B500213A8D /* printf_check.c in Sources */,
@@ -236,6 +243,7 @@
 				F65FD99F284BB07E008D597F /* pointer_check.c in Sources */,
 				F690692B28782879006C25CA /* string_check.c in Sources */,
 				F69EF862284369B80078F95A /* local_function_value.c in Sources */,
+				F649F18A2B45CB350003F6B2 /* test_list.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -18,8 +18,13 @@
 #include "enum_check.h"
 #include "macro_check.h"
 
+// ----- test -----
+#include "test_execute.h"
+#include "test_list.h"
+
 int main(int argc, const char * argv[]) {
     
+    /*
     const int FUNCTION_COUNT = 19;
     
     struct FunctionInfo functionInfoHolder[FUNCTION_COUNT] = {
@@ -45,6 +50,23 @@ int main(int argc, const char * argv[]) {
     };
     
     select_function_by_function_infos(functionInfoHolder, FUNCTION_COUNT);
+    */
+    
+    List* function_list = create_list();
+    
+    struct FunctionInfo testFunctionInfo = {"simple print test", test};
+    add_to_list(function_list, (void*)&testFunctionInfo);
+
+    struct FunctionInfo printCheckoutFunctionInfo = {"print checkout", print_checkout};
+    add_to_list(function_list, (void*)&printCheckoutFunctionInfo);
+    
+    
+    
+    select_function_by_function_info_list(function_list);
+
+    // ======================================== test ========================================
+    //test_select_function_by_function_infos();
+    //test_list();
     
     return 0;
 }

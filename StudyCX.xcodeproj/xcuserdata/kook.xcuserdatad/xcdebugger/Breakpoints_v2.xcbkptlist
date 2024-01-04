@@ -40,8 +40,8 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "74F57DD0-E41B-419C-81AA-695E90965265"
-            shouldBeEnabled = "Yes"
+            uuid = "17E9803A-8318-4E28-9349-4E639FB7F245"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "src/printf_check.c"
@@ -50,6 +50,22 @@
             startingLineNumber = "6"
             endingLineNumber = "6"
             landmarkName = "test()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2E4CFD7A-9406-4B3E-8F2A-B22F332BAFD7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "src/executer.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "get_from_list(list, index)"
             landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
